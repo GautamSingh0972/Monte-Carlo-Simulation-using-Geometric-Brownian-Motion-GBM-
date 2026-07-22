@@ -9,10 +9,10 @@ import sys
 ticker = input("Input the ticker you want to track: ") #User will input the ticker they want to track here e.g. "AAPL" or "MSFT"
 stock = yf.Ticker(ticker)
 
-suffixes = ("d", "mo", "y", "D","MO","Y", "Mo", "mO")
-time = input("How much historical data do you want? (input it as the number followed by d, mo or y for day, month and year respectively): ")
+suffixes = ("d", "mo", "y", "D","MO","Y", "Mo", "mO") #Stores Suffixes
+time = input("How much historical data do you want? (input it as the number followed by d, mo or y for day, month and year respectively): ") #Ensures the suffixes are valid 
 if not time.endswith(suffixes):
-    sys.exit("Invalid timeframe")
+    sys.exit("Invalid timeframe") #If not valid, code exists and user must retsart and input a proper suffix
     
 if time.endswith("y"):
     n = int(time.strip("y"))
