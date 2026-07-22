@@ -1,1 +1,5 @@
 # Monte-Carlo-Simulation-using-Geometric-Brownian-Motion-GBM-
+
+This project demonstrates the use of Monte Carlo Simulation with Geometric Brownian Motion (GBM) to model and forecast the future price movements of financial assets, such as stocks. GBM is a widely used stochastic process in quantitative finance because it captures the random nature of asset prices while ensuring prices remain positive. The simulation generates thousands of possible price paths based on historical volatility, expected return, and random market fluctuations, providing a probabilistic view of future outcomes rather than a single prediction.
+
+The project includes data preprocessing, parameter estimation, GBM implementation, and visualization of simulated price paths. By analyzing the distribution of simulated outcomes, users can estimate potential risks, expected returns, and confidence intervals for future asset prices. This approach is commonly applied in portfolio management, option pricing, risk analysis, and financial decision-making, making it a valuable tool for investors, analysts, and researchers interested in quantitative finance.
